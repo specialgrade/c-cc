@@ -1,0 +1,36 @@
+/* Experiment and modify the following properties to see how they affect the box model */
+
+/* Try changing the width, height, and background color */
+box {
+    width: 250px;
+    height: 150px;
+    background-color: #e74c3c;
+}
+
+/* Try adjusting the padding */
+box {
+    padding: 30px;
+} 
+
+/* Change the border style, width, and color */
+box {
+    border: 4px dashed #c0392b;
+} 
+
+/* Modify the margin to create space around the box */
+box {
+    margin: 30px;
+} 
+
+/* Add more content inside the box */
+.box {
+    padding: 20px;
+}
+.box p {
+    margin: 0;
+} 
+
+/* Center the box in the middle of the page */
+.box {
+    margin: 0 auto;
+} 
