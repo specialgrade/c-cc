@@ -10,10 +10,10 @@
 </head>
 
 <body>
-    <div class="home"> <!--home section-->
+    <div> 
         <header>
-            <nav> <!--navigation, right side-->
-                <p><span>Front-</span>End</p> <!--header, left side-->
+            <nav> <!--navigation-->
+                <p><span>Front-</span>End</p> 
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#blog">Blog</a></li>
@@ -21,18 +21,17 @@
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-            <section>
-                <div>
+            <section id="home">
+                <div> <!--header-->
                     <h1>Front-end</h1> <!--serves as a title-->
                     <p>Dive into the world of web development, as this resource sets you on the path to becoming a web design virtuoso!</p> <!--subtitle-->
                 </div>
             </section>
         </header>
 
-        <main class="main-content"> <!--content inside the website-->
-            <div class="blog"> <!--3 blogs-->
+        <main id="blog" class="main-content"> <!--content-->
+            <div class="blog"> <!--blog-->
                 <article>
-                    <h1>Blog Posts</h1> <!--serves as a title-->
                     <div class="post"> <!--blog 1-->
                         <div class="post-image"> <!--serves as a thumbnail-->
                             <img src="images/img1.avif" alt="Unveiling the Blueprint-Mastering HTML Document Structure"> 
@@ -70,13 +69,13 @@
                 </article>
             </div>
             
-            <aside> 
-                <div class="popular"  class="popular-posts-side"> <!--popular posts-->
+            <aside id="popular" class="sidebar"> 
+                <div class="popular-posts-side"> <!--popular posts-->
                     <h2>POPULAR POSTS</h2> <!--serves as a title-->
-                    <div class="popular-posts"> <!--4 posts-->
+                    <div class="popular-posts"> <!--posts-->
                         <div class="popular-post"> <!--post 1-->
                             <div class="popular-post-image"> <!--serves as a thumbnail-->
-                                <img src="images\posts\post1.jpg">
+                                <img src="images\posts\post1.jpg" alt="Interesting HTML tags">
                             </div>
                             <div class="popular-post-content"> <!--texts-->
                                 <a href="#popular" class="popular-post-title">Interesting HTML tags</a>
@@ -85,7 +84,7 @@
                         </div>
                         <div class="popular-post"> <!--post 2-->
                             <div class="popular-post-image"> <!--serves as a thumbnail-->
-                                <img src="images\posts\post2.png">
+                                <img src="images\posts\post2.png" alt="Unleash the Potential of Lists">
                             </div>
                             <div class="popular-post-content"> <!--texts-->
                                 <a href="#popular" class="popular-post-title">Unleash the Potential of Lists</a>
@@ -94,7 +93,7 @@
                         </div>
                         <div class="popular-post"> <!--post 3-->
                             <div class="popular-post-image"> <!--serves as a thumbnail-->
-                                <img src="images\posts\post3.webp">
+                                <img src="images\posts\post3.webp" alt="Master HTML in 24 Mins">
                             </div>
                             <div class="popular-post-content"> <!--texts-->
                                 <a href="#popular" class="popular-post-title">Master HTML in 24 Mins</a>
@@ -103,7 +102,7 @@
                         </div>
                         <div class="popular-post"> <!--post 4-->
                             <div class="popular-post-image"> <!--serves as a thumbnail-->
-                                <img src="images\posts\post4.png">
+                                <img src="images\posts\post4.png" alt="The state of a checkbox">
                             </div>
                             <div class="popular-post-content"> <!--texts-->
                                 <a href="#popular" class="popular-post-title">The state of a checkbox</a>
@@ -113,9 +112,9 @@
                     </div>
                 </div>
 
-                <div class="contact" class="sidebar"> <!--social links-->
-                    <h2>LET'S GET SOCIAL!</h2> <!--serves as a title-->
-                    <div class="social-side">
+                <div id="contact" class="social-side"> <!--social links-->
+                    <h2>LET'S GET SOCIAL!</h2> 
+                    <div>
                         <a href="https://www.facebook.com/"><img src="images\social\facebook.png" alt="Facebook"></a>
                         <a href="https://twitter.com/"><img src="images\social\twitter.png" alt="Twitter"></a>
                         <a href="https://www.linkedin.com/"><img src="images\social\linkedin.png" alt="LinkedIn"></a>
@@ -127,22 +126,23 @@
     </div>
 
     <div class="container">
-        <footer> <!--divided into 3-->
+        <footer> 
             <div class="footerBoxes">
                 <div class="footerBox">
-                    <h3>Privacy Policy</h3> <!--serves as a title-->
-                    <p>We are committed to protecting your privacy. We will only use the information we collect about you lawfully (in accordance with the Data Protection Act 1998). Please read on if you wish to learn more about our privacy policy.</p>
+                    <h3>Privacy Policy</h3> 
+                    <p>We are committed to protecting your privacy. We will only use the information we collect about you lawfully (Data Protection Act 1998). Please read on if you wish to learn more about our privacy policy.</p>
                 </div>
-                <div class="footerBox"> <!--serves as a title-->
+                <div class="footerBox"> 
                     <h3>Terms of Service</h3>
-                    <p>Our Service allows you to post, link, store, share, and otherwise make available certain information, text, graphics, videos, or other material. You are responsible for the Content posted on the Service.</p>
+                    <p>Our Service allows you to post, link, store, share, and otherwise make available certain information, text, graphics, videos, or other material. You are responsible for the content posted on the service.</p>
                 </div>
-                <div class="footerBox"> <!--serves as a title-->
-                    <h3>Help & Support</h3>
+                <div class="footerBox"> 
+                    <h3>Help & Support</h3> 
                     <p>If you have any questions or need assistance, our support team is here to help. Contact us via email or visit our help center for answers to frequently asked questions.</p>
                 </div>
             </div>
-            <p class="copy-right">2023 Blog Structure</p>
+            <hr class="splitter"> 
+            <p class="copy-right"> &copy; 2023 Blog Structure</p> <!--copy-right-->
         </footer>
     </div>
 </body>

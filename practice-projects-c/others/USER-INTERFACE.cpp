@@ -107,7 +107,7 @@ void drawBOXmain(){ // loops
 		printf("	} else {\n");
 		printf("	for (int row = 1; row <= sizeSquare; row++){\n");
 		printf("		for (int xcount = 1; xcount <= (sizeSquare*2); xcount++){\n");
-		printf("			printf(\"X\");\n");
+		printf("			printf(\"X\");\n");a
 		printf("			}\n");
 		printf("			printf(\"\\n\");\n");
 		printf("			}\n");
