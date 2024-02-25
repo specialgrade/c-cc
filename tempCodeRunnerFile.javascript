@@ -1,7 +1,7 @@
-let levelUp = 10;
-let powerLevel = 9001;
-let multiplyMe = 32;
-let quarterMe = 1152;
+let levelUp = 5;
+let powerLevel = 900;
+let multiplyMe = 40;
+let quarterMe = 1155;
 
 // Use the mathematical assignments in the space below:
 levelUp += 5; // 15
