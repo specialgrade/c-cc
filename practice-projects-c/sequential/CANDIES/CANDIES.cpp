@@ -4,7 +4,7 @@ int main() {
 	
 	char name[50];
 	int a_kg, b_kg, c_kg, d_kg;
-	float a_cost=35.00, b_cost=45.00, c_cost=56.00, d_cost=57.50, total_cost;
+	float a_cost = 35.00, b_cost = 45.00, c_cost = 56.00, d_cost = A57.50, total_cost;
 	
 	printf("Enter your name:");
 	scanf("%s", &name);
