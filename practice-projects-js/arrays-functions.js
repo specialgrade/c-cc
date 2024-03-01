@@ -1,4 +1,4 @@
-const concept = ['arrays', 'can', 'be', 'mutated'];
+/* const concept = ['arrays', 'can', 'be', 'mutated'];
 
 function changeArr(arr) {
   arr[3] = 'MUTATED';
@@ -12,4 +12,4 @@ function removeElement(newArr) {
 }
 
 removeElement(concept);
-console.log(concept);
+console.log(concept); */
