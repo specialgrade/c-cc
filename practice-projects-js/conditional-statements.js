@@ -1,5 +1,5 @@
 let attentionNiSeanKayAly = false; 
-attentionNiSeanKayAly = true;
+// attentionNiSeanKayAly = true;
 
 if (attentionNiSeanKayAly) {
     console.log('GALIT AKO - ALY FEB. 25, 2024');
