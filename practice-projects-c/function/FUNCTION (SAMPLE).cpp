@@ -1,5 +1,5 @@
 // In case base and height are given, we use the following formula:
-// A = ½ × height × base
+// A = ï¿½ ï¿½ height ï¿½ base
 
 #include <stdio.h>
 // int areaOfTri(int, int); // prototype, used only in top-down approach
@@ -21,5 +21,3 @@ int main() {
 	
 	return 0;
 }
-
-
