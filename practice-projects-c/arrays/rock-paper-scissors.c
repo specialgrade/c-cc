@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int functionGrid() { // function to display the initial grid
-    printf("| 1 | -1  | 0 |\n| 0 |  0  | 0 |\n| 0 |  0  | 0 |\n| 0 |  0  | 0 |\n");
+    printf(" 1 | -1  | 0 \n 0 |  0  | 0 \n 0 |  0  | 0 \n 0 |  0  | 0 \n 0 |  0  | 0 \n");
     return 0;
 }
 
@@ -72,12 +72,12 @@ int main() {
             }
 
             printf("\nUpdated Grid after Round %d:\n", round + 1); // print the updated grid
-            printf("|  1  | -1  |  0  |\n");
+            printf("  1  | -1  |  0  \n");
             for (int i = 0; i < round + 1; i++) {
-                printf("|  %d  |  %d  |  %d  |\n", player1Moves[i], player2Moves[i], scores[i]);
+                printf("  %d  |  %d  |  %d  \n", player1Moves[i], player2Moves[i], scores[i]);
             }
             for (int i = round + 1; i < 3; i++) {
-                printf("|  0  |  0  |  0  |\n");
+                printf("  0  |  0  |  0  \n");
             }
         }
 
