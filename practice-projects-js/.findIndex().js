@@ -9,4 +9,3 @@ const startsWithS = animals.findIndex(animals => {
   return animals[0] === 's';
 })
 console.log(startsWithS);
-

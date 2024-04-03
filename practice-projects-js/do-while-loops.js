@@ -6,4 +6,3 @@ do {
   cupsAdded++;
   console.log(cupsAdded + ' cup was added');
 } while (cupsAdded < cupsOfSugarNeeded);
-
