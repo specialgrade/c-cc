@@ -1,42 +1,40 @@
-#include <stdio.h.>
+#include <stdio.h> // add, difference, product, division
 
+int main() {
+    double num1;
+    double num2;
+    char ope;
+    
+    printf("ENTER FIRST NUMBER: ");
+    scanf("%lf", &num1);
+    
+    printf("ENTER SECOND NUMBER: ");
+    scanf("%lf", &num2);
+    
+    printf("\nENTER SIGN OF OPERATION \nADD (+) \nSUBTRACT (-) \nMULTIPLY (*) \nDIVIDE (/) \n\n");
+    printf(">>>> ");
+    scanf(" %c", &ope); // use %c to read a single character
+    
+    printf("\n>>>> %.2lf %c %.2lf\n", num1, ope, num2);
 
-int main(){
-
-	double num1;
-	double num2;
-	char ope;
+    if (ope == '+') {
+		double sum = num1 + num2;
+		printf("\n>>>> %2.lf \n", sum);
+		
+	} else if (ope == '-') { 
+		double diff = num1 - num2;
+		printf("\n>>>> %2.lf \n", diff);
 	
-		printf("ENTER FIRST NUMBER: ");
-		scanf("%lf", &num1);
+	} else if (ope == '*') {
+		double diff = num1 * num2;
+		printf("\n>>>> %2.lf \n", diff);
 		
-		printf("ENTER SECOND NUMBER: ");
-		scanf("%lf", &num2);
+	} else if (ope == '/') {
+		double diff = num1 / num2;
+		printf("\n>>>> %2.lf \n", diff);
 		
-		printf("\n\nEnter sign of operation \n add      (+) \n subtract (-) \n multiply (*) \n divide   (/) \n \n");
-		printf(">>>>  ");
-		scanf("%s", &ope);
-	
-	if (ope == '+'){
-	double sum = num1+num2;
-		printf("\n %lf", sum);
-		
-	}else if (ope == '-'){
-	double diff = num1-num2;
-		printf("\n %lf", diff);
-	
-	}else if (ope == '*'){
-	double diff = num1*num2;
-		printf("\n %lf", diff);
-		
-	}else if (ope == '/'){
-	double diff = num1/num2;
-		printf("\n %lf", diff);
-		
-	}else {
-		printf("\n syntax error");
+	} else {
+		printf("\nSYNTAX ERROR\n");
 	}
-	
-	return 0;
+    return 0;
 }
-
