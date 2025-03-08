@@ -1,9 +1,9 @@
-![image](https://github.com/user-attachments/assets/fe8937be-9913-4ccf-a0e2-bfdfadb3b859)# C Repository
+# C Repository
 This repository contains various C programs covering fundamental concepts, data structures, algorithms, and problem-solving techniques. These programs were created during my Computer Programming 1 and 2 courses.
 
 ## Folder Structure
 ```
-C-Programs/
+📂 C-Code-Repo
 │── 📂 Basics/
 │   │── 📂 variables/       # Programs demonstrating variable usage
 │   │── 📂 conditional/     # Conditional statements (if-else, switch-case)
@@ -43,4 +43,3 @@ C-Programs/
 - Arrays & Sequential Operations
 - Menu-driven Programs
 - Math.h Library Usage
-  
