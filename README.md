@@ -1,33 +1,33 @@
-# C Programs Repository
+![image](https://github.com/user-attachments/assets/fe8937be-9913-4ccf-a0e2-bfdfadb3b859)# C Repository
 This repository contains various C programs covering fundamental concepts, data structures, algorithms, and problem-solving techniques. These programs were created during my Computer Programming 1 and 2 courses.
 
 ## Folder Structure
 ```
 C-Programs/
-│── Basics/
-│   │── variables/       # Programs demonstrating variable usage
-│   │── conditional/     # Conditional statements (if-else, switch-case)
-│   │── loops/           # Looping structures (for, while, do-while)
+│── 📂 Basics/
+│   │── 📂 variables/       # Programs demonstrating variable usage
+│   │── 📂 conditional/     # Conditional statements (if-else, switch-case)
+│   │── 📂 loops/           # Looping structures (for, while, do-while)
 │
-│── Functions/
-│   │── function/        # Function-related programs
-│   │── udf/             # User-defined functions (UDF)
-│   │── recursion/       # Recursive functions and examples
+│── 📂 Functions/
+│   │── 📂 function/        # Function-related programs
+│   │── 📂 udf/             # User-defined functions (UDF)
+│   │── 📂 recursion/       # Recursive functions and examples
 │
-│── Data Structures/
-│   │── arrays/          # Programs related to arrays
-│   │── pointers/        # Pointer concepts and applications
+│── 📂 Data Structures/
+│   │── 📂 arrays/          # Programs related to arrays
+│   │── 📂 pointers/        # Pointer concepts and applications
 │
-│── Advanced/
-│   │── math.h/          # Programs utilizing the math.h library
-│   │── sequential/      # Sequential operations and file handling
-│   │── menu-program/    # Menu-driven C programs
+│── 📂 Advanced/
+│   │── 📂 math.h/          # Programs utilizing the math.h library
+│   │── 📂 sequential/      # Sequential operations and file handling
+│   │── 📂 menu-program/    # Menu-driven C programs
 │
-│── Miscellaneous/
-│   │── IM/              # (Specify content if needed)
-│   │── others/          # Miscellaneous programs
+│── 📂 Miscellaneous/
+│   │── 📂 IM/              # Course tasks
+│   │── 📂 others/          # Miscellaneous programs
 │
-│── README.md            # Documentation
+│── 🗒️ README.md            # Documentation
 ```
 
 ## Tech Stack
